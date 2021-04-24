@@ -321,3 +321,37 @@ img {
     width: 30px;
 }
 
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 30px 6% 60px;
+    gap: 50px;
+}
+.menu li {
+    font-size: 14px;
+    margin-top: 14px;
+    list-style: none;
+}
+
+.black-2 a {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 15.5% 20px;
+    border-top: 1px #c0c0c0 solid;
+    list-style: none;
+}
+.footer-nav a {
+    font-size: 12px;
+    color: #c0c0c0;
+}
+
+.small {
+    padding: 0 15.5% 110px;
+    font-size: 1px;
+}
