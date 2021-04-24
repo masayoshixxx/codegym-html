@@ -31,12 +31,17 @@ img {
     background-image: url(../images/h1_whats_2.jpg);
     background-size: cover; 
     width:100%; 
-    height: 270px;
+    height: 260px;
+}
+.pack {
+    padding: 42px 0 0 15%;
+}
+.pack p {
+    font-size: 18px;
 }
 .title  {
     margin: 0 auto;
-    padding: 0 15%;
-    line-height: 3;
+    line-height: 2.5;
     color: #fff
 }
 .logo {
@@ -83,12 +88,13 @@ img {
     color: #c0c0c0;
     margin: 0px 5px 10px 0;
 }
-.list a:hover {
-    color: #0bd;
-}
 .plane{
     font-size: 5px;
     margin-top: 5px;
+}
+#home {
+    padding: 0 22%;
+    margin: 0 auto;
 }
 .share {
     display: flex;
@@ -100,24 +106,6 @@ img {
 .share li {
     margin-left: 28px;
     list-style: none;
-}
-.icon {
-    height: 25px;
-    width: 25px;
-}
-.command {
-    display: flex;
-    justify-content: space-between;
-}
-.command a {
-    color: #000080;
-}
-.command a:hover {
-    text-decoration: underline;
-}
-#home {
-    padding: 0 22%;
-    margin: 0 auto;
 }
 .post-info{
     display: flex;
@@ -131,7 +119,92 @@ img {
     margin: 20px 0;
     line-height: 2;
 }
-.bullets li {
+.icon {
+    height: 25px;
+    width: 25px;
+}
+.button{
+    background: #0066CC;
+    margin: 30px auto;
+    width: 350px;
+    height: 70px;
+}
+.button a {
+    display: grid;
+    grid-template-columns: 10px 300px 15px;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin: 0 auto;
+    gap: 10px;
     list-style: none;
+}
+.ku {
+    margin-top: 15px;
+    font-size: 10px;
+}
+.pdf {
+    height: 30px;
+    width: 30px; 
+}
+.command {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px auto 30px auto;
+}
+.command a {
+    color: #000080;
+}
+.command a:hover {
+    text-decoration: underline;
+}
+.pdf {
+    height: 50px;
+    width: 50px; 
+}
+.bold {
+    padding: 20px;
+    font-weight: bold;
+}
+.middle {
+    background: #D7EEFF;
+    height: 250px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+    gap: 10px;
+}
+.grid a {
+    color: #000080;
+    text-align:center;
+}
+.item {
+    background-color: #fff;
+    padding: 15px;
+    list-style: none;
+}
+.right {
+    font-size: 13px;
+    margin-right: 10px;
+    color: #c0c0c0;
+}
+.midfield {
+    padding: 70px 15.5%;
+}
+.midfield li {
+    list-style: none;
+}
+.corporate-information {
+    font-size: 1.3rem;
+    padding: 20px 0 30px 0;
+    border-top: 2px #333 solid;
+    border-bottom: 1px #333 dotted;
+}
+.black {
+    
 }
 
