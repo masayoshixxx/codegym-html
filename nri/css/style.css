@@ -20,12 +20,10 @@ img {
 .page-header {
     display: flex;
     justify-content: space-between; 
-    margin: 0 auto;
 }
 .page-middle　{
     display: flex;
     justify-content: space-between;
-    margin: 0 auto;
 }
 .big-bg {
     background-image: url(../images/h1_whats_2.jpg);
@@ -94,7 +92,6 @@ img {
 }
 #home {
     padding: 0 22%;
-    margin: 0 auto;
 }
 .share {
     display: flex;
@@ -153,7 +150,7 @@ img {
     margin: 40px auto 30px auto;
 }
 .command a {
-    color: #000080;
+    color: #0D4299;
 }
 .command a:hover {
     text-decoration: underline;
@@ -179,7 +176,7 @@ img {
     gap: 10px;
 }
 .grid a {
-    color: #000080;
+    color: #0D4299;
     text-align:center;
 }
 .item {
@@ -204,7 +201,123 @@ img {
     border-top: 2px #333 solid;
     border-bottom: 1px #333 dotted;
 }
+
 .black {
-    
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.management-policy {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #333 dotted;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+.management-policy a {
+    color: #0D4299;
+}
+.management-policy a:hover {
+    text-decoration: underline;
+}
+
+.company-profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #333 dotted;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+.company-profile a {
+    color: #0D4299;
+}
+.company-profile a:hover {
+    text-decoration: underline;
+}
+
+.strengths {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #333 dotted;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+.strengths a {
+    color: #0D4299;
+}
+.strengths a:hover {
+    text-decoration: underline;
+}
+
+.hub {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #333 dotted;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+.hub a {
+    color: #0D4299;
+}
+.hub a:hover {
+    text-decoration: underline;
+}
+
+.business-information {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    border-bottom: 1px #333 dotted;
+    font-size: 14.5px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    gap: 15px;
+}
+.business-information a {
+    color: #0D4299;
+}
+.business-information a:hover {
+    text-decoration: underline;
+}
+
+.back {
+    margin: 60px 0 25px 0;
+}
+.back a {
+    font-size: 16px;
+    color: #0D4299;
+}
+
+.twoline {
+    display: flex;
+    justify-content: center;
+    padding: 30px 0 28px 0;
+    border-top: 1px #333 solid;
+    border-bottom: 1px #333 solid;
+}
+.twoline a {
+    margin-left: 35px;
+}
+.sub-title {
+    font-weight: bold;
+}
+.follow {
+    height: 30px;
+    width: 30px;
 }
 
