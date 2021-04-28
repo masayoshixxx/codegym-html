@@ -248,6 +248,10 @@ img {
   padding-bottom: 30px;
   gap: 15px;
 }
+.management-policy li {
+  display: flex;
+  align-items: center;
+}
 .management-policy a {
   color: #0d4299;
 }
@@ -265,6 +269,10 @@ img {
   margin-top: 20px;
   padding-bottom: 30px;
   gap: 15px;
+}
+.company-profile li {
+  display: flex;
+  align-items: center;
 }
 .company-profile a {
   color: #0d4299;
@@ -284,6 +292,10 @@ img {
   padding-bottom: 30px;
   gap: 15px;
 }
+.strengths li {
+  display: flex;
+  align-items: center;
+}
 .strengths a {
   color: #0d4299;
 }
@@ -301,6 +313,10 @@ img {
   padding-bottom: 30px;
   gap: 15px;
 }
+.hub li {
+  display: flex;
+  align-items: center;
+}
 .hub a {
   color: #0d4299;
 }
@@ -317,6 +333,10 @@ img {
   margin-top: 20px;
   padding-bottom: 30px;
   gap: 15px;
+}
+.business-information li {
+  display: flex;
+  align-items: center;
 }
 .business-information a {
   color: #0d4299;
@@ -359,12 +379,14 @@ img {
   gap: 50px;
 }
 .menu li {
+  display: flex;
+  align-items: center;
   font-size: 14px;
   margin-top: 14px;
   list-style: none;
 }
 
-.black-2 a {
+.black-bold a {
   font-weight: bold;
   font-size: 16px;
 }
